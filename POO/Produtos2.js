@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var Produto_1 = require("./Produto");
+var p2;
+var p3;
+p2 = new Produto_1.Produto("Uvas Thompson", 2, "Uvas doces sem sementes colhidas pelas mãos divinas", 15.00, 200);
+p3 = new Produto_1.Produto("Laranja Pera", 3, "Laranja pera, mais doce do que beijo de viuva apaixonada, 1 laranja 4 litros de suco", 5.00, 100);
+var info = p2.getInfo();
+console.log(info);
+var info2 = p3.getInfo();
+console.log(info2);
